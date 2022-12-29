@@ -1,0 +1,12 @@
+.red {
+    color: rgb(255, 234, 0);
+}
+
+.blue {
+    color: rgb(164, 0, 170);
+}
+
+.white {
+    background-color: #444;
+    color: #fff;
+}
