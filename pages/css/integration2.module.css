@@ -1,3 +1,15 @@
+#integration2 {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.integration2 {
+    font-size: 3rem;
+}
+
 .red {
     color: rgb(255, 234, 0);
 }
