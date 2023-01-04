@@ -10,6 +10,8 @@ export default function Father(props) {
             <Son name="Pandora" family={props.family} />
             <Son name="João" {...props} />
             <Son {...props} name="Kassio"/>
+            <Son {...props}/>
+            <Son {...props} name="Kassio"/>
         </div>
     )
 }
