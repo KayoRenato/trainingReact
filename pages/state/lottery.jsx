@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import Ball from "../../components/Ball";
 
 import { createTicket } from '../../functions/lottery'
@@ -6,7 +6,11 @@ import { createTicket } from '../../functions/lottery'
 export default function lottery() {
 
     const [num, setNumber] = useState(6)
-    const [ticket, setTicket] = useState(createTicket(num))
+    const [ticket, setTicket] = useState([])
+
+    useEffect(()=> {
+        setTicket(createTicket())
+    }, [])
 
     const styleContent = {
         display: 'flex',
