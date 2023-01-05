@@ -29,7 +29,7 @@ export default function buttonTest() {
                 style={{ marginRight: 8 }}
                 onClick={function () { console.log("action3") }}>
                 Click #03
-            </button>
+            </button> 
 
             <button
                 style={{ marginRight: 8 }}
@@ -50,7 +50,7 @@ export default function buttonTest() {
             </button>
 
             <div>
-                <input type="text" onChange={e => console.log(e.target.value)}/>
+                <input type="text" style={{width:250}} onChange={e => console.log(e.target.value)}/>
             </div>
         </div >
     );
