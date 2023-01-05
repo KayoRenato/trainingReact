@@ -2,6 +2,7 @@ import { useState } from "react";
 
 export default function counter() {
 
+    // eslint-disable-next-line react-hooks/rules-of-hooks
     const [value, setValue] = useState(0)
 
     const plus = () => setValue(value + 1)
