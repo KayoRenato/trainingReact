@@ -1,15 +1,16 @@
+/* eslint-disable react-hooks/rules-of-hooks */
 import { useState } from "react";
 
 export default function mouse() {
-
-    const [x, setX] = useState(0)
-    // let x = arrayX[0]
-    // const setX = arrayX[1]
-
-
-    const arrayY = useState(0)
-    let y = arrayY[0]
-    const setY = arrayY[1]
+    
+        const [x, setX] = useState(0)
+        // let x = arrayX[0]
+        // const setX = arrayX[1]
+        
+    
+        const arrayY = useState(0)
+        let y = arrayY[0]
+        const setY = arrayY[1]
 
 
     const styleMouse = {
@@ -21,9 +22,9 @@ export default function mouse() {
         color: '#e0d730',
         height: '100vh',
     }
+    
 
-
-    function whenMove(ev) {
+    function whenMove (ev){
         // console.log(ev.clientX, ev.clientY)
         setX(ev.clientX)
         setY(ev.clientY)
